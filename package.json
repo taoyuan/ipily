@@ -1,0 +1,49 @@
+{
+  "name": "ipily",
+  "version": "1.0.0",
+  "description": "Get your public IP address",
+  "license": "MIT",
+  "repository": "taoyuan/ipily",
+  "author": {
+    "name": "Yuan Tao",
+    "email": "towyuan@outlook.com",
+    "url": "github.com/taoyuan"
+  },
+  "keywords": [
+    "ip",
+    "ipv4",
+    "ipv6",
+    "address",
+    "public",
+    "external",
+    "own"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && echo Using TypeScript && tsc --version && tsc --pretty",
+    "test": "npm run build && mocha --require ts-node/register --recursive \"test/**/*.test.ts\""
+  },
+  "dependencies": {
+    "got": "^9.2.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.3",
+    "@types/got": "^8.3.4",
+    "@types/mocha": "^5.2.0",
+    "@types/node": "^10.1.2 ",
+    "chai": "^4.1.2",
+    "is-ip": "^2.0.0",
+    "mocha": "^5.1.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
