@@ -1,4 +1,4 @@
-# ipily [![Build Status](https://travis-ci.org/taoyuan/ipily.svg?branch=master)](https://travis-ci.org/taoyuan/ipily)
+# ipily [![Build Status](https://travis-ci.org/taoyuan/ipily.svg?branch=master)](https://travis-ci.org/taoyuan/ipily) [![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/ipily.svg)](https://greenkeeper.io/)
 
 > Get your public IP address
 
